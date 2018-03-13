@@ -84,12 +84,7 @@ public class class_ControlRemoto implements interfaceControlador {
     public void ligarMudo() {
         if(this.getLigado() && (this.getVolume()>0)){
             this.setVolume(0);
-<<<<<<< HEAD
             this.setTocando(false);
-=======
-            this.setTocando(false);/*achei melhor acrescentar esse comando
-            porque se ligar o mudo entao nao toca*/
->>>>>>> c1c608f34f1a86c6f06c6e2138877c33d94c76d5
         }
     }
 
@@ -97,11 +92,7 @@ public class class_ControlRemoto implements interfaceControlador {
     public void desligarMudo() {
         if(this.getLigado() &&(this.getVolume()==0)){
             this.setVolume(50);
-<<<<<<< HEAD
             this.setTocando(true);
-=======
-            this.setTocando(true);//achei melhor acrescentar esse comando
->>>>>>> c1c608f34f1a86c6f06c6e2138877c33d94c76d5
         }
     }
 
